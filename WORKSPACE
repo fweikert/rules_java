@@ -14,3 +14,10 @@ rules_java_deps()
 load("@rules_java//:setup.bzl", "rules_java_setup")
 
 rules_java_setup()
+
+# TODO: enable this code once it is actually needed
+# load("//:internal_deps.bzl", "rules_java_internal_deps")
+# rules_java_internal_deps()
+
+# load("//:internal_setup.bzl", "rules_java_internal_setup")
+# rules_java_internal_setup()
